@@ -1,0 +1,6 @@
+{
+    "script":{
+        "test": "robot --outputdir report tests/*.robot",
+        "HL": "robot --variable headless:--headless --outputdir report tests/*.robot"
+    }
+}
